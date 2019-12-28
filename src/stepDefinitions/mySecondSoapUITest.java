@@ -10,7 +10,7 @@ public class mySecondSoapUITest {
 	public void integrating_Soapui_with_Test_Management_for_Jira_version() throws Throwable {
 		
 		 SoapUITestCaseRunner runner = new SoapUITestCaseRunner(); 
-		  runner.setProjectFile( "SoapUI_File/Calculator-soapui-project.xml" );
+		  runner.setProjectFile( "SoapUI_File/CountryInfo-soapui-project.xml" );
 		  runner.run(); 
 	   
 	}
