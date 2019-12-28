@@ -1,0 +1,30 @@
+2019-12-28 18:57:10,205 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\suree\soapui-settings.xml]
+2019-12-28 18:57:11,843 INFO  [WsdlProject] Loaded project from [file:/C:/Users/suree/eclipse-workspace/Neg_Posiv_SoapUI2Jira_TM4J/SoapUI_File/CountryInfo-soapui-project.xml]
+2019-12-28 18:57:11,861 WARN  [WsdlProject] Project 'CountryInfo' is from a newer version (5.5.0) of soapUI than this (4.0.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+2019-12-28 18:57:12,547 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [CountryInfo]
+2019-12-28 18:57:12,553 INFO  [SoapUITestCaseRunner] Running Project [CountryInfo], runType = SEQUENTIAL
+2019-12-28 18:57:12,573 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2019-12-28 18:57:12,574 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2019-12-28 18:57:13,025 INFO  [log] Hello Word
+2019-12-28 18:57:13,031 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 446ms, status: FINISHED
+2019-12-28 18:57:13,032 INFO  [SoapUITestCaseRunner] Project [CountryInfo] finished with status [FINISHED] in 471ms
+2019-12-28 18:57:13,044 INFO  [WsdlProject] Loaded project from [file:/C:/Users/suree/eclipse-workspace/Neg_Posiv_SoapUI2Jira_TM4J/SoapUI_File/CountryInfo-soapui-project.xml]
+2019-12-28 18:57:13,044 WARN  [WsdlProject] Project 'CountryInfo' is from a newer version (5.5.0) of soapUI than this (4.0.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+2019-12-28 18:57:13,055 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [CountryInfo]
+2019-12-28 18:57:13,055 INFO  [SoapUITestCaseRunner] Running Project [CountryInfo], runType = SEQUENTIAL
+2019-12-28 18:57:13,056 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2019-12-28 18:57:13,056 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2019-12-28 18:57:13,070 INFO  [log] Hello Word
+2019-12-28 18:57:13,070 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 13ms, status: FINISHED
+2019-12-28 18:57:13,071 INFO  [SoapUITestCaseRunner] Project [CountryInfo] finished with status [FINISHED] in 16ms
+2019-12-28 18:57:13,076 INFO  [WsdlProject] Loaded project from [file:/C:/Users/suree/eclipse-workspace/Neg_Posiv_SoapUI2Jira_TM4J/SoapUI_File/Calculator-soapui-project.xml]
+2019-12-28 18:57:13,077 WARN  [WsdlProject] Project 'Calculator' is from a newer version (5.5.0) of soapUI than this (4.0.1) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+2019-12-28 18:57:13,250 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Calculator]
+2019-12-28 18:57:13,250 INFO  [SoapUITestCaseRunner] Running Project [Calculator], runType = SEQUENTIAL
+2019-12-28 18:57:13,252 INFO  [SoapUITestCaseRunner] Running soapUI testcase [Add_TestCase 1]
+2019-12-28 18:57:13,263 INFO  [SoapUITestCaseRunner] running step [Add]
+2019-12-28 18:57:13,990 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2019-12-28 18:57:13,990 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [18] in Response
+2019-12-28 18:57:13,990 ERROR [SoapUITestCaseRunner] Add failed, exporting to [C:\Users\suree\eclipse-workspace\Neg_Posiv_SoapUI2Jira_TM4J\CalculatorTestSuite_1-AddTestCase_1-Add-0-FAILED.txt]
+2019-12-28 18:57:14,006 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [Add_TestCase 1], time taken: 723ms, status: FAILED
+2019-12-28 18:57:14,007 INFO  [SoapUITestCaseRunner] Project [Calculator] finished with status [FAILED] in 757ms

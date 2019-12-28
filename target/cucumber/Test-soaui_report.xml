@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0"
+           tests="3"
+           time="4.754206">
+   <testcase classname="SoapUI2Jira_TM4J" name="SoapUI2Jira_TM4J" time="3.782387">
+      <system-out>Given Sending test report from SoapUI to JIRA...............................passed
+</system-out>
+   </testcase>
+   <testcase classname="SoapUI2Jira_TM4J_1" name="SoapUI2Jira_TM4J_1" time="0.034048">
+      <system-out>Given Integrating Soapui with Test Management for Jira version..............passed
+</system-out>
+   </testcase>
+   <testcase classname="SoapUI2Jira_TM4J_NEG" name="SoapUI2Jira_TM4J_NEG" time="0.937771">
+      <failure message="java.lang.Exception: Contains in [Add] failed;&#xA;[Missing token [18] in Response]&#xA;Status: FAILED&#xD;&#xA;Time Taken: 723&#xD;&#xA;Size: 860&#xD;&#xA;Timestamp: Sat Dec 28 18:57:13 CET 2019&#xD;&#xA;TestStep: Add&#xD;&#xA;&#xD;&#xA;----------------- Messages ------------------------------&#xD;&#xA;[Contains] Missing token [18] in Response&#xD;&#xA;&#xD;&#xA;----------------- Properties ------------------------------&#xD;&#xA;Endpoint: http://www.dneonline.com/calculator.asmx&#xD;&#xA;Encoding: UTF-8&#xD;&#xA;&#xD;&#xA;---------------- Request ---------------------------&#xD;&#xA;Request Headers: User-Agent : Jakarta Commons-HttpClient/3.1&#xD;&#xA;Host : www.dneonline.com&#xD;&#xA;Accept-Encoding : gzip,deflate&#xD;&#xA;Content-Length : 279&#xD;&#xA;Content-Type : application/soap+xml;charset=UTF-8;action=&#34;http://tempuri.org/Add&#34;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;soap:Envelope xmlns:soap=&#34;http://www.w3.org/2003/05/soap-envelope&#34; xmlns:tem=&#34;http://tempuri.org/&#34;&gt;&#xD;&#xA;   \r&#xD;&#xA;   &lt;soap:Header/&gt;&#xD;&#xA;   \r&#xD;&#xA;   &lt;soap:Body&gt;&#xD;&#xA;      \r&#xD;&#xA;      &lt;tem:Add&gt;&#xD;&#xA;         \r&#xD;&#xA;         &lt;tem:intA&gt;8&lt;/tem:intA&gt;&#xD;&#xA;         \r&#xD;&#xA;         &lt;tem:intB&gt;9&lt;/tem:intB&gt;&#xD;&#xA;         \r&#xD;&#xA;      &lt;/tem:Add&gt;&#xD;&#xA;      \r&#xD;&#xA;   &lt;/soap:Body&gt;&#xD;&#xA;   \r&#xD;&#xA;&lt;/soap:Envelope&gt;&#xD;&#xA;&#xD;&#xA;---------------- Response --------------------------&#xD;&#xA;Response Headers: Cache-Control : private&#xD;&#xA;Server : Microsoft-IIS/7.5&#xD;&#xA;X-AspNet-Version : 2.0.50727&#xD;&#xA;#status# : HTTP/1.1 500 Internal Server Error&#xD;&#xA;Content-Length : 860&#xD;&#xA;Date : Sat, 28 Dec 2019 17:57:14 GMT&#xD;&#xA;Content-Type : application/soap+xml; charset=utf-8&#xD;&#xA;X-Powered-By : ASP.NET&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;soap:Envelope xmlns:soap=&#34;http://www.w3.org/2003/05/soap-envelope&#34; xmlns:xsi=&#34;http://www.w3.org/2001/XMLSchema-instance&#34; xmlns:xsd=&#34;http://www.w3.org/2001/XMLSchema&#34;&gt;&#xD;&#xA;   &lt;soap:Body&gt;&#xD;&#xA;      &lt;soap:Fault&gt;&#xD;&#xA;         &lt;soap:Code&gt;&#xD;&#xA;            &lt;soap:Value&gt;soap:Sender&lt;/soap:Value&gt;&#xD;&#xA;         &lt;/soap:Code&gt;&#xD;&#xA;         &lt;soap:Reason&gt;&#xD;&#xA;            &lt;soap:Text xml:lang=&#34;en&#34;&gt;System.Web.Services.Protocols.SoapException: Server was unable to read request. ---&gt; System.InvalidOperationException: Request format is invalid: Missing required soap:Body element.&#xA;   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()&#xA;   at System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()&lt;/soap:Text&gt;&#xD;&#xA;         &lt;/soap:Reason&gt;&#xD;&#xA;         &lt;soap:Detail/&gt;&#xD;&#xA;      &lt;/soap:Fault&gt;&#xD;&#xA;   &lt;/soap:Body&gt;&#xD;&#xA;&lt;/soap:Envelope&gt;&#xD;&#xA;&#xD;&#xA;&#x9;at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:506)&#xD;&#xA;&#x9;at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:410)&#xD;&#xA;&#x9;at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:158)&#xD;&#xA;&#x9;at stepDefinitions.mySoapUITestNegTest.soapui_negative_test_case(mySoapUITestNegTest.java:15)&#xD;&#xA;&#x9;at ✽.Given SoapUI negative test case(TM-T3.feature:5)&#xD;&#xA;">Given SoapUI negative test case.............................................failed
+
+StackTrace:
+java.lang.Exception: Contains in [Add] failed;
+[Missing token [18] in Response]
+Status: FAILED&#xD;
+Time Taken: 723&#xD;
+Size: 860&#xD;
+Timestamp: Sat Dec 28 18:57:13 CET 2019&#xD;
+TestStep: Add&#xD;
+&#xD;
+----------------- Messages ------------------------------&#xD;
+[Contains] Missing token [18] in Response&#xD;
+&#xD;
+----------------- Properties ------------------------------&#xD;
+Endpoint: http://www.dneonline.com/calculator.asmx&#xD;
+Encoding: UTF-8&#xD;
+&#xD;
+---------------- Request ---------------------------&#xD;
+Request Headers: User-Agent : Jakarta Commons-HttpClient/3.1&#xD;
+Host : www.dneonline.com&#xD;
+Accept-Encoding : gzip,deflate&#xD;
+Content-Length : 279&#xD;
+Content-Type : application/soap+xml;charset=UTF-8;action="http://tempuri.org/Add"&#xD;
+&#xD;
+&#xD;
+&lt;soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/"&gt;&#xD;
+   \r&#xD;
+   &lt;soap:Header/&gt;&#xD;
+   \r&#xD;
+   &lt;soap:Body&gt;&#xD;
+      \r&#xD;
+      &lt;tem:Add&gt;&#xD;
+         \r&#xD;
+         &lt;tem:intA&gt;8&lt;/tem:intA&gt;&#xD;
+         \r&#xD;
+         &lt;tem:intB&gt;9&lt;/tem:intB&gt;&#xD;
+         \r&#xD;
+      &lt;/tem:Add&gt;&#xD;
+      \r&#xD;
+   &lt;/soap:Body&gt;&#xD;
+   \r&#xD;
+&lt;/soap:Envelope&gt;&#xD;
+&#xD;
+---------------- Response --------------------------&#xD;
+Response Headers: Cache-Control : private&#xD;
+Server : Microsoft-IIS/7.5&#xD;
+X-AspNet-Version : 2.0.50727&#xD;
+#status# : HTTP/1.1 500 Internal Server Error&#xD;
+Content-Length : 860&#xD;
+Date : Sat, 28 Dec 2019 17:57:14 GMT&#xD;
+Content-Type : application/soap+xml; charset=utf-8&#xD;
+X-Powered-By : ASP.NET&#xD;
+&#xD;
+&#xD;
+&lt;soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&#xD;
+   &lt;soap:Body&gt;&#xD;
+      &lt;soap:Fault&gt;&#xD;
+         &lt;soap:Code&gt;&#xD;
+            &lt;soap:Value&gt;soap:Sender&lt;/soap:Value&gt;&#xD;
+         &lt;/soap:Code&gt;&#xD;
+         &lt;soap:Reason&gt;&#xD;
+            &lt;soap:Text xml:lang="en"&gt;System.Web.Services.Protocols.SoapException: Server was unable to read request. ---&gt; System.InvalidOperationException: Request format is invalid: Missing required soap:Body element.
+   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   at System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()&lt;/soap:Text&gt;&#xD;
+         &lt;/soap:Reason&gt;&#xD;
+         &lt;soap:Detail/&gt;&#xD;
+      &lt;/soap:Fault&gt;&#xD;
+   &lt;/soap:Body&gt;&#xD;
+&lt;/soap:Envelope&gt;&#xD;
+&#xD;
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:506)&#xD;
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:410)&#xD;
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:158)&#xD;
+	at stepDefinitions.mySoapUITestNegTest.soapui_negative_test_case(mySoapUITestNegTest.java:15)&#xD;
+	at ✽.Given SoapUI negative test case(TM-T3.feature:5)&#xD;
+</failure>
+   </testcase>
+</testsuite>

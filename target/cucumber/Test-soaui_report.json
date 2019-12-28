@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SoapUI2Jira_TM4J",
+        "description": "",
+        "id": "soapui2jira-tm4j;soapui2jira-tm4j",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3782387200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sending test report from SoapUI to JIRA.",
+            "match": {
+              "location": "myFirstSoapUITest.sending_test_report_from_SoapUI_to_JIRA()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dTM-T1"
+          }
+        ]
+      }
+    ],
+    "name": "SoapUI2Jira_TM4J",
+    "description": "",
+    "id": "soapui2jira-tm4j",
+    "keyword": "Feature",
+    "uri": "TM-T1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SoapUI2Jira_TM4J_1",
+        "description": "",
+        "id": "soapui2jira-tm4j-1;soapui2jira-tm4j-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34048400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Integrating Soapui with Test Management for Jira version",
+            "match": {
+              "location": "mySecondSoapUITest.integrating_Soapui_with_Test_Management_for_Jira_version()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dTM-T2"
+          }
+        ]
+      }
+    ],
+    "name": "SoapUI2Jira_TM4J_1",
+    "description": "",
+    "id": "soapui2jira-tm4j-1",
+    "keyword": "Feature",
+    "uri": "TM-T2.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SoapUI2Jira_TM4J_NEG",
+        "description": "",
+        "id": "soapui2jira-tm4j-neg;soapui2jira-tm4j-neg",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 937771100,
+              "error_message": "java.lang.Exception: Contains in [Add] failed;\n[Missing token [18] in Response]\nStatus: FAILED\r\nTime Taken: 723\r\nSize: 860\r\nTimestamp: Sat Dec 28 18:57:13 CET 2019\r\nTestStep: Add\r\n\r\n----------------- Messages ------------------------------\r\n[Contains] Missing token [18] in Response\r\n\r\n----------------- Properties ------------------------------\r\nEndpoint: http://www.dneonline.com/calculator.asmx\r\nEncoding: UTF-8\r\n\r\n---------------- Request ---------------------------\r\nRequest Headers: User-Agent : Jakarta Commons-HttpClient/3.1\r\nHost : www.dneonline.com\r\nAccept-Encoding : gzip,deflate\r\nContent-Length : 279\r\nContent-Type : application/soap+xml;charset\u003dUTF-8;action\u003d\"http://tempuri.org/Add\"\r\n\r\n\r\n\u003csoap:Envelope xmlns:soap\u003d\"http://www.w3.org/2003/05/soap-envelope\" xmlns:tem\u003d\"http://tempuri.org/\"\u003e\r\n   \\r\r\n   \u003csoap:Header/\u003e\r\n   \\r\r\n   \u003csoap:Body\u003e\r\n      \\r\r\n      \u003ctem:Add\u003e\r\n         \\r\r\n         \u003ctem:intA\u003e8\u003c/tem:intA\u003e\r\n         \\r\r\n         \u003ctem:intB\u003e9\u003c/tem:intB\u003e\r\n         \\r\r\n      \u003c/tem:Add\u003e\r\n      \\r\r\n   \u003c/soap:Body\u003e\r\n   \\r\r\n\u003c/soap:Envelope\u003e\r\n\r\n---------------- Response --------------------------\r\nResponse Headers: Cache-Control : private\r\nServer : Microsoft-IIS/7.5\r\nX-AspNet-Version : 2.0.50727\r\n#status# : HTTP/1.1 500 Internal Server Error\r\nContent-Length : 860\r\nDate : Sat, 28 Dec 2019 17:57:14 GMT\r\nContent-Type : application/soap+xml; charset\u003dutf-8\r\nX-Powered-By : ASP.NET\r\n\r\n\r\n\u003csoap:Envelope xmlns:soap\u003d\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd\u003d\"http://www.w3.org/2001/XMLSchema\"\u003e\r\n   \u003csoap:Body\u003e\r\n      \u003csoap:Fault\u003e\r\n         \u003csoap:Code\u003e\r\n            \u003csoap:Value\u003esoap:Sender\u003c/soap:Value\u003e\r\n         \u003c/soap:Code\u003e\r\n         \u003csoap:Reason\u003e\r\n            \u003csoap:Text xml:lang\u003d\"en\"\u003eSystem.Web.Services.Protocols.SoapException: Server was unable to read request. ---\u003e System.InvalidOperationException: Request format is invalid: Missing required soap:Body element.\n   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()\n   --- End of inner exception stack trace ---\n   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()\n   at System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()\u003c/soap:Text\u003e\r\n         \u003c/soap:Reason\u003e\r\n         \u003csoap:Detail/\u003e\r\n      \u003c/soap:Fault\u003e\r\n   \u003c/soap:Body\u003e\r\n\u003c/soap:Envelope\u003e\r\n\r\n\tat com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:506)\r\n\tat com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:410)\r\n\tat com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:158)\r\n\tat stepDefinitions.mySoapUITestNegTest.soapui_negative_test_case(mySoapUITestNegTest.java:15)\r\n\tat ✽.Given SoapUI negative test case(TM-T3.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "SoapUI negative test case",
+            "match": {
+              "location": "mySoapUITestNegTest.soapui_negative_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dTM-T3"
+          }
+        ]
+      }
+    ],
+    "name": "SoapUI2Jira_TM4J_NEG",
+    "description": "",
+    "id": "soapui2jira-tm4j-neg",
+    "keyword": "Feature",
+    "uri": "TM-T3.feature"
+  }
+]
